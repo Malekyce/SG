@@ -20,23 +20,10 @@ if uploaded_data is not None:
         # Update UI with training progress or success message
 
 # Visualization dashboard section
-st.header("Visualization Dashboard")
+st.header("Visualization Dashboard")  # Indented the header line
+
 # Replace with your specific data visualization libraries (e.g., matplotlib, plotly)
 st.line_chart(data["Demand"])
 st.bar_chart(data["Renewable Generation"])
 
-# Optimization and simulation section
-st.header("Optimization and Simulation")
-# Replace with your specific optimization library and logic
-st.slider("Renewable Energy Priority", min_value=0.0, max_value=1.0)
-st.slider("Peak Demand Reduction Target", min_value=0.0, max_value=1.0)
-if st.button("Simulate"):
-    # Simulate different energy distribution scenarios
-    # Update UI with simulation results (e.g., impact on energy waste, carbon footprint)
-
-# Deployment and control section (for demonstration only)
-st.header("Deployment and Control (Simulation)")
-st.write("This section is for demonstration purposes only.")
-st.button("Optimize Grid Distribution")
-st.write("Grid distribution optimized based on simulation results.")
-
+# ... (rest of the code remains the same)
