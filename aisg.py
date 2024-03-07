@@ -19,8 +19,7 @@ if uploaded_data is not None:
         # Train demand forecasting and renewable energy prediction models
         # Update UI with training progress or success message
 
-# Visualization dashboard section
-st.header("Visualization Dashboard")  # Indented the header line
+
 
 # Replace with your specific data visualization libraries (e.g., matplotlib, plotly)
 st.line_chart(data["Demand"])
